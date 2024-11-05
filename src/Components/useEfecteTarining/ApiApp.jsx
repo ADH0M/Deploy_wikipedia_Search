@@ -28,7 +28,7 @@ const ApiApp = () => {
 
   const handleChange = (event) => {
     setTerm(event.target.value);
-    debounce(event.target.value);
+    // debounce(event.target.value);
   };
 
   useEffect(() => {

@@ -24,10 +24,12 @@ function customDebounce ( value , delay){
     useEffect(()=>{
         const time = setTimeout(()=>{
             setQuery(value)
-        }, delay)
+        }, delay);
+
         return ()=>{
             clearTimeout(time);
         }
+        
     } ,[value , delay]);
     return query ;
 };

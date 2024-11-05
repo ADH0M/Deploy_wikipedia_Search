@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import WikiApp from "./WikiApp";
 import ApiApp from "./ApiApp";
+import DebounceCustomHook from "./DebounceCustomHook";
 const FirstComponent = () => {
   const [pwd, setPwd] = useState("");
   const [n1, setN1] = useState(0);
@@ -63,7 +64,8 @@ const FirstComponent = () => {
         </div>
       </div>
       <WikiApp />
-      {/* <ApiApp /> */}
+      {/* <ApiApp />  */}
+      {/* <DebounceCustomHook /> */}
     </>
   );
 };

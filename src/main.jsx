@@ -9,9 +9,9 @@ import FirstComponent from "./Components/useEfecteTarining/FirstComponent.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthProvider>
-      {/* <Login /> */}
-      {/* <App /> */}
-      <FirstComponent />
+      <Login />
+      <App />
+      {/* <FirstComponent /> */}
     </AuthProvider>
 
   </StrictMode>

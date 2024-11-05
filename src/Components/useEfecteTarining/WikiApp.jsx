@@ -1,5 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
 import axios from "../../api/udime";
+import PrevState from "./PrevState";
 
 const WikiApp = () => {
   const [term, setTerm] = useState("");
@@ -54,6 +55,7 @@ const WikiApp = () => {
         <button>search</button>
       </label>
       <div>{table}</div>
+      <PrevState/>
     </div>
   );
 };
