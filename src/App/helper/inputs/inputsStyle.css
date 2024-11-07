@@ -1,0 +1,23 @@
+.input-wrapper {
+    margin-bottom: 15px;
+  }
+  
+  .input-wrapper label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-wrapper input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  

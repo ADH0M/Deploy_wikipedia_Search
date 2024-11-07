@@ -16,7 +16,7 @@ function App() {
         <ImageSlider />
         <Vedio />
         <Inputs />
-
+      
       </div>
 
   );

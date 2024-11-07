@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex transition-all duration-300  sticky top-0 justify-center items-center ${
+      className={`flex transition-all duration-300 z-50 sticky top-0 justify-center items-center ${
         windowScroll
           ? "bg-blue-200 dark:bg-slate-500 pb-1 border-b border-gray-300 "
           : "bg-gray-300 dark:bg-gray-600 border-b border-b-gray-400"

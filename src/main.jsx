@@ -5,13 +5,16 @@ import App from "./App.jsx";
 import Login from "./Components/Auth/Login.jsx";
 import AuthProvider from "./Components/Context/AuthProvider.jsx";
 import FirstComponent from "./Components/useEfecteTarining/FirstComponent.jsx";
+import AppRouter from "./AppRouter.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthProvider>
-      <Login />
-      <App />
+      {/* <Login /> */}
+      {/* <App /> */}
       {/* <FirstComponent /> */}
+      <AppRouter/>
+
     </AuthProvider>
 
   </StrictMode>
